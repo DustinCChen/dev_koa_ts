@@ -5,28 +5,28 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc --build",
-    "start": "ts-node-dev src/sever.ts",
-    "test": "NODE_ENV=test PORT=7788 jest",
+    "start": "ts-node-dev src/server.ts",
+    "test": "set NODE_ENV=test && set PORT=7788 && jest",
     "test:watch": "npm run test --watchAll"
   },
-  "jest":{
-    "verbose":true,
-    "collectCoverage":true,
-    "modulePathIgnorePatterns":[
+  "jest": {
+    "verbose": true,
+    "collectCoverage": true,
+    "modulePathIgnorePatterns": [
       "<rootDir>/node_modules/"
     ],
-    "roots":[
+    "roots": [
       "<rootDir>/__tests__"
     ],
-    "transform":{
-      "^.+\\.tsx?$":"ts-jest"
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
     },
-    "testEnvironment":"node",
-    "testPathIgnorePatterns":[
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
       "/node_modules/"
     ],
-    "testRegex":"(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
-    "moduleFileExtensions":[
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
+    "moduleFileExtensions": [
       "ts",
       "tsx",
       "js",
@@ -39,6 +39,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jest": "^29.7.0",
     "koa": "^2.15.0",
     "koa-bodyparser": "^4.4.1",
     "koa-logger": "^3.2.1",
