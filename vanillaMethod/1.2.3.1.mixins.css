@@ -1,0 +1,17 @@
+#header ul.nav {
+  float: right;
+}
+#header ul.nav li {
+  float: left;
+  margin-right: 10px;
+}
+
+#footer ul.nav {
+  margin-top: 1em;
+}
+#footer ul.nav li {
+  float: left;
+  margin-right: 10px;
+}
+
+/*# sourceMappingURL=1.2.3.1.mixins.css.map */

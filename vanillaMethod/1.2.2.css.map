@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "sourceRoot": "",
+    "sources": [
+        "1.2.2.nesting.scss"
+    ],
+    "names": [],
+    "mappings": "AAAA;EACI;;AAEA;EACI;;AAEA;EACI;;AAGJ;EACI",
+    "file": "1.2.2.css"
+}

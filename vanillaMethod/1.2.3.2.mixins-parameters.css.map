@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "sourceRoot": "",
+    "sources": [
+        "1.2.3.2.mixins-parameters.scss"
+    ],
+    "names": [],
+    "mappings": "AAOE;EAEE;;AARA;EACE;EACA,cAH2B;;;AAY/B;EAEE;;AAbA;EACE;EACA,cAUuB",
+    "file": "1.2.3.2.mixins-parameters.css"
+}

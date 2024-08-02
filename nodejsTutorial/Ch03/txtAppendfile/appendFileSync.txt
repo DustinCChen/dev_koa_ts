@@ -1,0 +1,2 @@
+fs.appendFileSync(filename, data[, options])append new to appendFileSync.txt
+append new to appendFileSync.txt
